@@ -13,3 +13,5 @@ int main(void){
       printf("draw");
     }
   }
+ return 0;
+}
