@@ -1,0 +1,15 @@
+N,K = map(int,input().split())
+x = list(map(int,input().split()))
+low = -1
+for i in range(N-K+1):
+  if abs(x[i]) < abs(x[i+K-1]):
+    l = abs(x[i]) + abs(x[i+K-1]-x[i])
+  else:
+    l = abs(x[i+K-1]) + abs(x[i+K-1]-x[i])
+  if low > l:
+    low = l
+  elif low < 0:
+    low = l
+if low < 0:
+  low = 0
+print(low)
