@@ -19,3 +19,22 @@ print(N)
 # if文
 print("Yes") if N == 0 else print("No")
 ```
+## 変換
+
+```python
+# int to str
+str(N)
+# str to int
+int(s)
+# list to str
+S = "区切り文字".join(L)
+# str to list[N]
+L = S.split("区切り文字",N)
+```
+
+## 繰り返し上限アップ
+
+```python
+import sys
+sys.setrecursionlimit(N)
+```
