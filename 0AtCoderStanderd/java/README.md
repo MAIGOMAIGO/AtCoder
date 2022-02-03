@@ -36,4 +36,7 @@ System.out.println(S.substring(1,4); // pen
 System.out.println(S.substring(0,2); // op
 // 文字の取得
 System.out.println(S.charAt(1); // char型 p
+// 文字の比較 ==では違う判定にされるので注意
+String str = "open";
+S.equals(str); // True
 ```
