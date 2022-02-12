@@ -38,3 +38,13 @@ L = S.split("区切り文字",N)
 import sys
 sys.setrecursionlimit(N)
 ```
+
+## たまに使うやつ
+
+```python
+L = [3, 1, 4, 5, 2]
+L.sort() # [1, 2, 3, 4, 5]
+L.sort(reverse=True) # [5, 4, 3, 2, 1]
+L = sorted(L) # [1, 2, 3, 4, 5]
+L = sorted(L, reverse=True) # [5, 4, 3, 2, 1]
+```
