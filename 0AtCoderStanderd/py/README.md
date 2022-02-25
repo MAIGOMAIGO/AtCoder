@@ -1,6 +1,8 @@
 ## 標準入力
 
 ```python
+# S 文字列
+S = input()
 # N 整数
 N = int(input())
 # N M 整数
@@ -42,9 +44,12 @@ sys.setrecursionlimit(N)
 ## たまに使うやつ
 
 ```python
+# List sort
 L = [3, 1, 4, 5, 2]
 L.sort() # [1, 2, 3, 4, 5]
 L.sort(reverse=True) # [5, 4, 3, 2, 1]
 L = sorted(L) # [1, 2, 3, 4, 5]
 L = sorted(L, reverse=True) # [5, 4, 3, 2, 1]
+# reverse str
+S[::-1]
 ```
