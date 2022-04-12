@@ -9,4 +9,5 @@ int main(void){
     y++;
   }
   printf("%d",y);
+  return 0;
 }
