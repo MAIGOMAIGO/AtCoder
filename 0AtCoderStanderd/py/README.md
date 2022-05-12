@@ -28,8 +28,10 @@ print("Yes") if N == 0 else print("No")
 str(N)
 # str to int
 int(s)
-# list to str
+# strlist to str
 S = "区切り文字".join(L)
+# otherlist to str
+S = "区切り文字".join([str(i) for i in L])
 # str to list[N]
 L = S.split("区切り文字",N)
 ```
