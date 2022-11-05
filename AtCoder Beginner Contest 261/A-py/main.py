@@ -1,0 +1,5 @@
+L1,R1,L2,R2 = map(int,input().split())
+R = list(range(L1,R1+1))
+B = list(range(L2,R2+1))
+A = len(R+B)-len(set(R+B))
+print(A-1) if A > 0 else print(0) 
