@@ -56,6 +56,8 @@ L = sorted(L) # [1, 2, 3, 4, 5]
 L = sorted(L, reverse=True) # [5, 4, 3, 2, 1]
 # reverse str
 S[::-1]
+# 切り上げ
+-(-N//n)
 ```
 
 ## 集合
