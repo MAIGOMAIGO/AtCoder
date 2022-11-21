@@ -20,6 +20,8 @@ print("Yes")
 print(N)
 # if文
 print("Yes") if N == 0 else print("No")
+# listをアンパックして半角スペース区切りで出力
+print(*L)
 ```
 ## 変換
 
