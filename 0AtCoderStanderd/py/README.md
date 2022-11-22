@@ -58,6 +58,9 @@ L = sorted(L, reverse=True) # [5, 4, 3, 2, 1]
 S[::-1]
 # 切り上げ
 -(-N//n)
+# 標準エラーを発生させる
+import sys
+print('エラーですよ',file=sys.stderr)
 ```
 
 ## 集合
