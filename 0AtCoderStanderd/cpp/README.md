@@ -1,6 +1,7 @@
 ## 標準
 ```c++
 #include <iostream>
+using namespace std; // std::省略
 int main(){
   
   return 0;
@@ -21,6 +22,15 @@ std::cin >> N;
 // N 整数
 std::cout << N << std::endl;
 ```
+
+## 文字列
+
+```c++
+#include <string>
+string str;
+std::cout << str[i] // i番目の要素出力
+```
+
 ## 集合
 
 ```c++
