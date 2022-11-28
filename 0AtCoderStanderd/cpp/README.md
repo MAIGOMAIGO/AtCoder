@@ -12,14 +12,14 @@ int main(){
 ```c++
 // N 整数
 int N;
-cin >> N;
+std::cin >> N;
 ```
 
 ## 標準出力
 
 ```c++
 // N 整数
-cout << N << endl;
+std::cout << N << std::endl;
 ```
 ## 集合
 
@@ -32,4 +32,22 @@ st.insert(n);
 st.erase(n);
 // 検索
 auto a = st.find(n);
+```
+
+## 可変長配列
+
+```c++
+#include <vector>
+std::vector<int> vec(N);
+// 追加
+vec.push_back(n);
+// 削除
+vec.erase(std::cbegin(vec)+idx);
+// ソート
+#include <algorithm>
+std::sort(data.begin(),data.end());//昇順ソート
+// 最大値
+int min = *std::min_element(vec.begin(), vec.end());
+// 最小値
+int max = *std::max_element(vec.begin(), vec.end());
 ```
