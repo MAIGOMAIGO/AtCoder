@@ -61,6 +61,14 @@ S[::-1]
 # 標準エラーを発生させる
 import sys
 print('エラーですよ',file=sys.stderr)
+# zip()
+name = ["taro","pero","anko"]
+age  = [5,3,2]
+for n,a in zip(name,age):
+  print(n,a)
+# taro 5
+# pero 3
+# anko 2
 ```
 
 ## 集合
