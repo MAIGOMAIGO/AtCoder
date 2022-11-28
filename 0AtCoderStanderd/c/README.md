@@ -32,3 +32,12 @@ scanf("%f",&f);
 int N = 0;
 printf("%d",N); // 0
 ```
+
+## マクロ
+
+``` c
+#define PI 3.14
+printf("%f",PI); // 3.14
+#define MAX(a,b) a<b?b:a
+printf("%d",MAX(4,5)); // 5
+```
