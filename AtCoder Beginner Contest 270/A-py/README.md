@@ -2,4 +2,4 @@
 https://atcoder.jp/contests/abc270/tasks/abc270_a  
 Python (3.8.2)で回答  
 
-ビット
+ビットOR
