@@ -1,0 +1,5 @@
+N = int(input())
+K = int(input())
+X = int(input())
+Y = int(input())
+print(N*X) if N <= K else print(K*X + (N-K)*Y)
